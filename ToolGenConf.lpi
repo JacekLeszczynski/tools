@@ -37,8 +37,8 @@
       <Filename Value="tool-gen-conf"/>
     </Target>
     <SearchPaths>
-      <IncludeFiles Value="$(ProjOutDir);../../../bin/lazarus/lcl/include"/>
-      <OtherUnitFiles Value="../../lib;../../components/extlazarus;../../../bin/lazarus/lcl;../../../bin/lazarus/components/lazutils"/>
+      <IncludeFiles Value="$(ProjOutDir);$(LazarusDir)/lcl/include"/>
+      <OtherUnitFiles Value="$(LazarusDir)/local/lib;$(LazarusDir)/local/components/extlazarus;$(LazarusDir)/lcl;$(LazarusDir)/components/lazutils"/>
       <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <CodeGeneration>
